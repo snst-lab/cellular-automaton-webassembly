@@ -1,0 +1,46 @@
+{
+  "name": "cellular-automaton-webassembly",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Tanusuke",
+  "license": "Apache-2.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snst-lab/cellular-automaton-webassembly.git"
+  },
+  "bugs": {
+    "url": "https://github.com/snst-lab/cellular-automaton-webassembly/issues"
+  },
+  "homepage": "https://github.com/snst-lab/cellular-automaton-webassembly#readme",
+  "postinstall": "node-prune",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^4.0.2",
+    "typescript": "^3.5.2",
+    "ts-loader": "^5.3.3",
+    "tslint": "^5.18.0",
+    "@types/node": "^12.0.10",
+  },
+  "scripts": {
+    "tslint": "tslint --fix 'src/script/**.ts' --project tsconfig.json",
+    "commit:1": "git config user.name 'snst-lab'",
+    "commit:2": "git remote rm origin",
+    "commit:3": "git remote add origin git@github.com:snst-lab/cellular-automaton-webassembly.git",
+    "commit:4": "git add -A",
+    "commit:5": "git commit",
+    "commit:6": "git push origin master",
+    "pull": "git pull git@github.com:snst-lab/cellular-automaton-webassembly.git master --allow-unrelated-histories",
+    "heroku:1": "heroku git:remote -a cellular-automaton-webassembly",
+    "heroku:2": "git push heroku master",
+    "heroku-pull": "git pull https://git.heroku.com/cellular-automaton-webassembly.git master"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "app-root-path": "^2.2.1",
+  },
+  "private": true
+}

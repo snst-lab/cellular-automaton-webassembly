@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "sourceMap": false,
+        "target": "es5",
+        "lib": ["dom","es6","es2015.core"],
+        "outDir": "build/script",
+        "module": "esNext",
+        "moduleResolution": "node",
+        // 到達しえないコードがあるとエラー
+        "allowUnreachableCode": false,
+        // 到達しえないラベルがあるとエラー
+        "allowUnusedLabels": false,
+        // use strict; が自動でつく
+        "alwaysStrict": true,
+        // 暗黙的な any があるとエラー
+        "noImplicitAny": false,
+        // 値を返さないコードパスがあるとエラー
+        "noImplicitReturns": false,
+        // this に型を明示しないとエラー
+        "noImplicitThis": true,
+        // 使っていないローカル変数があるとエラー
+        "noUnusedLocals": false,
+        // 使っていない引数があるとエラー
+        "noUnusedParameters": false,
+        // デフォルトで non-nullableになるので null チェック必須に
+        "strictNullChecks": true,
+        "pretty": true,
+        "noEmitHelpers": true,
+        "importHelpers": true
+    },
+    "include": [
+        "src/script/**.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}

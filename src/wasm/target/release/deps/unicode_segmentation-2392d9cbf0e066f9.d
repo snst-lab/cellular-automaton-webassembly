@@ -1,0 +1,9 @@
+E:\localhost\proto\ehon\src\wasm\target\release\deps\libunicode_segmentation-2392d9cbf0e066f9.rlib: C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\lib.rs C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\grapheme.rs C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\tables.rs C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\word.rs C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\sentence.rs
+
+E:\localhost\proto\ehon\src\wasm\target\release\deps\unicode_segmentation-2392d9cbf0e066f9.d: C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\lib.rs C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\grapheme.rs C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\tables.rs C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\word.rs C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\sentence.rs
+
+C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\lib.rs:
+C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\grapheme.rs:
+C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\tables.rs:
+C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\word.rs:
+C:\Users\Shunsuke\.cargo\registry\src\github.com-1ecc6299db9ec823\unicode-segmentation-1.3.0\src\sentence.rs:
