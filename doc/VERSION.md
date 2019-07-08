@@ -9,7 +9,7 @@ The versioning scheme we refer is [Semantic Versioning](https://semver.org/)
 
 | Type | Description | Commit Title | Commit Message |
 |:----------:|:-------------|:-------------|:-------------|
-|**Major**| Incompatible API changes | major-x.0.0 | cellular-automaton-with-wasm-x.0.0 released / feature: A / feature: B / improve:A / ...   |
+|**Major**| Incompatible API changes | major-x.0.0 | cellular-automaton-webassembly-x.0.0 released / feature: A / feature: B / improve:A / ...   |
 |**Minor**| Adding functionality in a backwards-compatible | minor-x.x.0 | feature:A |
 |**Patch**| Bug fixes or improving functionality. | patch-x.x.x | bugfix: A,  improve: B,  refactor: C, style: D |
 <summary><div> 
@@ -54,27 +54,5 @@ The versioning scheme we refer is [Semantic Versioning](https://semver.org/)
 <summary>1</summary>
 
 - edit README.md<br>
-</details>
-<details open>
-<summary>2</summary>
-
-- edit README.md<br>
-- configure server.js<br>
-</details>
-<details open>
-<summary>3</summary>
-
 - fix server settings<br>
-</details>
-
-<details open>
-<summary>4</summary>
-
-- fix typescript settings<br>
-</details>
-<details open>
-<summary>5</summary>
-
-- edit README.md<br>
-- configure server settings<br>
 </details>
