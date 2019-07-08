@@ -56,3 +56,9 @@ The versioning scheme we refer is [Semantic Versioning](https://semver.org/)
 - edit README.md<br>
 - fix server settings<br>
 </details>
+
+<details open>
+<summary>2</summary>
+
+- edit README.md<br>
+</details>

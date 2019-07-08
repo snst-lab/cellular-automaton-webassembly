@@ -91,7 +91,7 @@ features = [
 ## Rust 
 Here is an excerpt. Web-sys functions such as "create_element", "query_selector", etc. are defined in a different crate.
 
-```rs
+```rust
 extern crate wasm_bindgen;
 
 pub mod web;
