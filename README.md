@@ -262,9 +262,8 @@ Because initialization of WebAssembly requires asynchronous reading, I wrapped t
 
 ```ts
 import { CellularAutomaton as CA , default as init } from '../wasm/pkg/wasm.js';
-// Import { CellularAutomaton as CA } from './cellularAutomaton';
 
-(async() => {
+(async() =>{
     await init('./src/wasm/pkg/wasm_bg.wasm');
     const ca: CA = new CA();
     ca.start();

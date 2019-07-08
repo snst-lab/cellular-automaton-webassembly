@@ -62,3 +62,10 @@ The versioning scheme we refer is [Semantic Versioning](https://semver.org/)
 
 - edit README.md<br>
 </details>
+
+<details open>
+<summary>3</summary>
+
+- refactor main.ts<br>
+- edit README.md<br>
+</details>
