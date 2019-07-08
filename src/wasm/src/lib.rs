@@ -196,7 +196,7 @@ impl CellularAutomaton{
         let cells = CELLS.read().unwrap();
         let mut life = LIFE.write().unwrap();
         let mut life_temp = LIFE_TEMP.write().unwrap();
-        
+
         for i in 0..N {
 			let top_right: isize = i - n + 1;
 			let top: isize = i - n;
@@ -216,7 +216,9 @@ impl CellularAutomaton{
 				(if bottom >= N  { 0 } else { (*life)[bottom as usize] } ) +
 				(if bottom_right >= N { 0 } else { (*life)[bottom_right as usize] } ) +
 				(if right >= N  { 0 } else { (*life)[right as usize] } );
-            
+
+            (*life_temp)[i as usize] = (*life)[i as usize]; 
+
 			if (*life)[i as usize] == 0 && around == 3 {
                 let cell:HtmlElement = Document::query_selector(&(*cells)[i as usize]);
                 cell.style().set_property("background-color", "deeppink").expect("failed to set property");

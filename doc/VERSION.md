@@ -76,3 +76,9 @@ The versioning scheme we refer is [Semantic Versioning](https://semver.org/)
 - refactor main.ts<br>
 - fix wasm setings<br>
 </details>
+
+<details open>
+<summary>5</summary>
+
+- refactor lib.rs<br>
+</details>
