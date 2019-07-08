@@ -1,7 +1,7 @@
 'use strict';
 const express = require('express');
 const root =  require("app-root-path");
-express.static.mime.types['wasm'] = 'application/wasm'
+express.static.mime.define({'application/wasm': ['wasm']})
 
 /**
  * Server Configuration

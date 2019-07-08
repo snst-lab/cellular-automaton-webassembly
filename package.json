@@ -1,7 +1,7 @@
 {
   "name": "cellular-automaton-webassembly",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cellular automaton which is a famous numerical experiment (Game of Life). I experimented that using Web Assembly with 'wasm-bindgen' and 'web-sys' crate.",
   "author": "Tanusuke",
   "license": "Apache-2.0",
   "main": "server.js",

@@ -2,7 +2,7 @@
 
 Cellular Automaton using Web Assembly
 =============
-Cellular automaton which is a famous numerical experiment (Game of Life). I experimented that using Web Assembly with wasm-bindgen and web-sys crate.
+Cellular automaton which is a famous numerical experiment (Game of Life). I experimented that using Web Assembly with "wasm-bindgen" and "web-sys" crate.
 > 
 
 <br>

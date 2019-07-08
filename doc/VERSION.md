@@ -69,3 +69,10 @@ The versioning scheme we refer is [Semantic Versioning](https://semver.org/)
 - refactor main.ts<br>
 - edit README.md<br>
 </details>
+
+<details open>
+<summary>4</summary>
+
+- refactor main.ts<br>
+- fix wasm setings<br>
+</details>
