@@ -37,7 +37,8 @@
     "push:github": "git config user.name 'snst-lab' && git remote rm origin && git remote add origin git@github.com:snst-lab/cellular-automaton-webassembly.git && git push origin master",
     "pull:github": "git pull git@github.com:snst-lab/cellular-automaton-webassembly.git master --allow-unrelated-histories",
     "push:heroku": "heroku git:remote -a cellular-automaton-webassembly && git push heroku master",
-    "pull:heroku": "git pull https://git.heroku.com/cellular-automaton-webassembly.git master --allow-unrelated-histories"
+    "pull:heroku": "git pull https://git.heroku.com/cellular-automaton-webassembly.git master --allow-unrelated-histories",
+    "wasm": "bin/wasm-pack.exe build src/public/wasm --target web"
   },
   "dependencies": {
     "app-root-path": "^2.2.1",
