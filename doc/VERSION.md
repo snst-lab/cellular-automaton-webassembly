@@ -82,3 +82,9 @@ The versioning scheme we refer is [Semantic Versioning](https://semver.org/)
 
 - refactor lib.rs<br>
 </details>
+
+<details open>
+<summary>6</summary>
+
+- improve environment<br>
+</details>

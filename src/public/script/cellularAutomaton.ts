@@ -74,6 +74,7 @@ export class CellularAutomaton {
         });
         for (let i: number = 0; i < this.N; i++) {
             this.cells[i].addEventListener('mouseover', (event: PointerEvent) => {
+                event.preventDefault();
                 if (this.mouse_down) {
                     this.cells[i].style.backgroundColor = color.live;
                     this.life[i] = 1;

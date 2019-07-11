@@ -1,1 +1,0 @@
-E:\localhost\proto\cellular-automaton\src\wasm\target\wasm32-unknown-unknown\release\wasm.wasm: E:\localhost\proto\cellular-automaton\src\wasm\src\lib.rs E:\localhost\proto\cellular-automaton\src\wasm\src\web.rs
